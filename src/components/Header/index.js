@@ -51,18 +51,18 @@ const Header = () => (
             <IoMdClose className="hamburgericon" />
           </button>
           <ul className="unorderlist-home-about-one">
-            <Link to="/" className="link-items">
-              <li>
+            <li>
+              <Link to="/" className="link-items">
                 <AiFillHome />
                 <p className="home-heading ">Home</p>
-              </li>
-            </Link>
-            <Link to="/about" className="link-items">
-              <li>
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="link-items">
                 <BsInfoCircleFill />
                 <p className="home-heading ">About</p>
-              </li>
-            </Link>
+              </Link>
+            </li>
           </ul>
         </div>
       )}

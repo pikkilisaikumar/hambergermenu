@@ -1,0 +1,12 @@
+.not-found-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.not-found-styling {
+  height: 400px;
+  width: 500px;
+}

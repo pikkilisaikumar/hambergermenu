@@ -1,0 +1,18 @@
+.home-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+/* .white-container-one{
+    background-color:white;
+    padding:20px;
+    height:200px;
+    width:300px;
+} */
+.home-image-one {
+  height: 400px;
+  width: 500px;
+}

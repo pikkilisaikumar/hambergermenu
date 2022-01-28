@@ -12,7 +12,7 @@ import {AiFillHome} from 'react-icons/ai'
 
 import 'reactjs-popup/dist/index.css'
 
-// import Paragraph from './styledComponents'
+import Paragraph from './styledComponents'
 
 import './index.css'
 
@@ -53,14 +53,14 @@ const Header = () => (
           <ul className="unorderlist-home-about-one">
             <li>
               <Link to="/" className="link-items">
-                <AiFillHome />
-                <p className="home-heading ">Home</p>
+                <AiFillHome className="home-about-react-icons" />
+                <Paragraph>Home</Paragraph>
               </Link>
             </li>
             <li>
               <Link to="/about" className="link-items">
-                <BsInfoCircleFill />
-                <p className="home-heading ">About</p>
+                <BsInfoCircleFill className="home-about-react-icons" />
+                <Paragraph>About</Paragraph>
               </Link>
             </li>
           </ul>

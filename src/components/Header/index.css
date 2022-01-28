@@ -9,10 +9,14 @@
 .home-heading {
   font-family: Roboto;
 }
-
+.home-about-react-icons {
+  font-size: 25px;
+}
 .link-items {
   text-decoration: none;
   outline: None;
+  display: flex;
+  align-items: center;
   font-family: Roboto;
 }
 
